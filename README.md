@@ -26,3 +26,14 @@
 
 3. [圆的总面积计算](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/esp2/3.cpp)
 创建多个圆对象，并通过函数 double sum(Circle circleArray[], int size) 计算这些圆的总面积。
+
+## 第三次实验
+
+1. [MyInteger 类的设计与测试](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/esp3/1.cpp)
+设计并测试 MyInteger 类，包括成员变量、构造函数、获取值、判断偶数、判断素数和相等函数。
+
+2. [栈操作 (Stack)](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/esp3/2.cpp)
+实现并测试 StackOfIntegers 类，包括栈的基本操作。
+
+3. [按递减顺序显示最小因子](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/esp3/3.cpp)
+接收用户输入的正整数，并显示其按递减顺序排列的最小因子。使用 StackOfIntegers 类实现。
