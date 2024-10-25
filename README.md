@@ -39,3 +39,6 @@
 接收用户输入的正整数，并显示其按递减顺序排列的最小因子。使用 StackOfIntegers 类实现。
 
 ## 第四次实验
+
+1. [Rational 有理数类的实现](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/esp4/1.cpp)
+设计并测试 Rational 类，包括成员变量(分子、分母)，构造函数，加法、减法、乘法、除法、比较等相关操作函数，以及各种运算符重载。

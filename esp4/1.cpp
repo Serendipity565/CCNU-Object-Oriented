@@ -29,7 +29,6 @@ private:
     }
 
 public:
-    // 构造函数
     Rational() : numerator(0), denominator(1) {}
 
     Rational(int numerator, int denominator) : numerator(numerator), denominator(denominator)
@@ -248,55 +247,56 @@ public:
 int main()
 {
     Rational r0(4, 2);
-    cout << "r0 =" << r0.toString() << endl; // Output 2
+    cout << "r0 =" << r0.toString() << endl;
 
     Rational r1(2, 4);
-    cout << "r1 =" << r1.toString() << endl; // Output 1/2
+    cout << "r1 =" << r1.toString() << endl;
 
     Rational r2(3, 5);
-    cout << "r2 =" << r2.toString() << endl; // Output 3/5
+    cout << "r2 =" << r2.toString() << endl;
 
     Rational r3 = r1 + r2;
-    cout << "r1 + r2 = " << r3.toString() << endl; // Output 23/20
+    cout << "r1 + r2 = " << r3.toString() << endl;
 
     Rational r4 = r1 - r2;
-    cout << "r1 - r2 = " << r4.toString() << endl; // Output -1/20
+    cout << "r1 - r2 = " << r4.toString() << endl;
 
     Rational r5 = r1 * r2;
-    cout << "r1 * r2 = " << r5.toString() << endl; // Output 3/10
+    cout << "r1 * r2 = " << r5.toString() << endl;
 
     Rational r6 = r1 / r2;
-    cout << "r1 / r2 = " << r6.toString() << endl; // Output 5/6
+    cout << "r1 / r2 = " << r6.toString() << endl;
 
     r1 += r2;
-    cout << "r1 += r2: " << r1.toString() << endl; // Output 23/20
+    cout << "r1 += r2: " << r1.toString() << endl;
 
     r1 -= r2;
-    cout << "r1 -= r2: " << r1.toString() << endl; // Output 1/2
+    cout << "r1 -= r2: " << r1.toString() << endl;
 
     ++r1;
-    cout << "++r1: " << r1.toString() << endl; // Output 3/2
+    cout << "++r1: " << r1.toString() << endl;
     r1++;
-    cout << "r1++: " << r1++.toString() << endl; // Output 23/20
+    cout << "r1++: " << r1++.toString() << endl;
 
     --r1;
-    cout << "--r1: " << r1.toString() << endl; // Output 1/2
+    cout << "--r1: " << r1.toString() << endl;
     r1--;
-    cout << "r1--: " << r1.toString() << endl; // Output 2/4
+    cout << "r1--: " << r1.toString() << endl;
 
-    cout << "r1 <= r2: " << (r1 <= r2) << endl; // Output 1
-    cout << "r1 >= r2: " << (r1 >= r2) << endl; // Output 0
-    cout << "r1 == r2: " << (r1 == r2) << endl; // Output 0
-    cout << "r1 != r2: " << (r1 != r2) << endl; // Output 1
+    cout << "r1 <= r2: " << (r1 <= r2) << endl;
+    cout << "r1 >= r2: " << (r1 >= r2) << endl;
+    cout << "r1 == r2: " << (r1 == r2) << endl;
+    cout << "r1 != r2: " << (r1 != r2) << endl;
 
-    cout << "Integer part of r1: " << r1.intValue() << endl; // Output 0
-    cout << "Integer part of r2: " << r2.intValue() << endl; // Output 0
+    cout << "r1 =" << r1.toString() << endl;
+    cout << "Integer part of r1: " << r1.intValue() << endl;
+    cout << "Integer part of r2: " << r2.intValue() << endl;
 
-    cout << "Floating value of r1: " << r1.doubleValue() << endl; // Output 0.5
-    cout << "Floating value of r2: " << r2.doubleValue() << endl; // Output 0.6
+    cout << "Floating value of r1: " << r1.doubleValue() << endl;
+    cout << "Floating value of r2: " << r2.doubleValue() << endl;
 
-    cout << "Numerator of r1: " << r1[0] << endl;   // Output 1
-    cout << "Denominator of r1: " << r1[1] << endl; // Output 2
+    cout << "Numerator of r1: " << r1[0] << endl;
+    cout << "Denominator of r1: " << r1[1] << endl;
 
     return 0;
 }
