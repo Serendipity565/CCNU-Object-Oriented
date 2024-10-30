@@ -187,12 +187,13 @@ public:
         }
     }
 
+    // 前置+
     Rational &operator++()
     {
         numerator += denominator;
         return *this;
     }
-
+    // 后置+
     Rational operator++(int)
     {
         Rational temp = *this;
