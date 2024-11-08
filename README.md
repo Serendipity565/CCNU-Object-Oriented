@@ -42,3 +42,14 @@
 
 1. [Rational 有理数类的实现](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/esp4/1.cpp)
 设计并测试 Rational 类，包括成员变量(分子、分母)，构造函数，加法、减法、乘法、除法、比较等相关操作函数，以及各种运算符重载。
+
+## 期中考试
+
+1. [Point类和Line类](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Midterm_Exam/1.cpp)
+定义Point类和Line类，其中Line类是Point类的友元类，包含两个Point对象，分别表示起点和终点，补充必要函数，并实现Line的len函数，计算线段长度。
+
+2. [类的派生](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Midterm_Exam/2.cpp)
+定义一个Shape类，派生出Rectangle类和Circle类，计算各派生类对象的面积area()，并在Rectangle类中重载关系运算符==来比较两个Rectangle是否相等。
+
+3. [长度可变的数组](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Midterm_Exam/3.cpp)
+不全相关代码
