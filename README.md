@@ -52,9 +52,23 @@
 定义一个 `Shape` 类，派生出 `Rectangle` 类和 `Circle` 类，计算各派生类对象的面积 `area()`，并在 `Rectangle` 类中重载关系运算符 `==` 来比较两个 `Rectangle` 是否相等。
 
 3. [长度可变的数组](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Midterm_Exam/3.cpp)
-补全相关代码
+补全相关代码。
 
 ## 课后练习
 
 1. [用纯虚函数重构上课的虚函数例子](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Midterm_Exam/3.cpp)
 从Shape类派生出 `Triangle`、`Circle`、`Rectangle` 类，并实现不同类间通过面积从小到大排序
+
+## 第五次实验
+
+1. [虚函数的应用](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment5/1.cpp)
+填空，完成虚函数的调用，使其输出指定内容。
+
+2. [完成 Employee 类和 Leader 类](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment5/2.cpp)
+定义一个 `Employee` 类，再以 `Employee` 类为基类，派生出 `Leader` 类，并实现指定功能。
+
+3. [判断数组是否已排序模板](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment5/3.cpp)
+设计一个通用的函数来检查数组中的元素是否已排序。
+
+4. [补充 ArraySum 模板](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment5/4.cpp)
+补充 `ArraySum` 模板，并实现指定功能。
