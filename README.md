@@ -72,3 +72,20 @@
 
 4. [补充 ArraySum 模板](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment5/4.cpp)
 补充 `ArraySum` 模板，并实现指定功能。
+
+## 第六次实验
+
+1. [补全模板函数F](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment6/1.cpp)
+补全代码，对数组筛选满足条件的元素。
+
+2. [栈模板](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment6/2.cpp)
+实现并测试 `Stack` 模板类，包括栈的基本操作。
+
+3. [管理多个序列的命令](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment6/3.cpp)
+对多个序列进行管理，包括创建序列、向序列中添加元素、合并两个序列、去重、以及按顺序输出序列内容。
+
+4. [字符串公共元素](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment6/4.cpp)
+返回两个字符串的公共字符
+
+5. [回文字符串](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment6/5.cpp)
+判断字符串是否回文
