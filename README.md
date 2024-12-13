@@ -89,3 +89,18 @@
 
 5. [回文字符串](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment6/5.cpp)
 判断字符串是否回文
+
+## 第七次实验
+
+1. [补全代码](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment7/1.cpp)
+补全排序代码，使其排序后输出指定内容
+
+2. [集合操作](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment7/2.cpp)
+对一个整数集合进行指定操作，实现 `add i` 、 `del i` 和 `ask i` 的操作，并输出指定内容
+
+3. [文件读取](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment7/3.cpp)
+从指定文件中读取单词并统计次数，按单词出现次数输出，如果次数相同，则按字典序
+
+4. [文件拷贝](https://github.com/Serendipity565/CCNU-Object-Oriented/blob/main/Experiment7/4.cpp)
+写一个文件拷贝程序 `myfilecopy` ，实现 `myfilecopy s.txt d.txt` 的用法，将 `s.txt` 中的内容复制到 `d.txt` ，如果 `d.txt` 存在，则覆盖该文件
+注意：我导打包生成的文件为 `4.exe` 所以相应的调用为 `4.exe s.txt d.txt`。
